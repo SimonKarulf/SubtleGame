@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adb6a47e.chunk.css",
+    "main.js": "/static/js/main.57c00912.chunk.js",
+    "main.js.map": "/static/js/main.57c00912.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4f434aaf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4f434aaf.js.map",
+    "static/js/2.06d429b0.chunk.js": "/static/js/2.06d429b0.chunk.js",
+    "static/js/2.06d429b0.chunk.js.map": "/static/js/2.06d429b0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.adb6a47e.chunk.css.map": "/static/css/main.adb6a47e.chunk.css.map",
+    "static/js/2.06d429b0.chunk.js.LICENSE.txt": "/static/js/2.06d429b0.chunk.js.LICENSE.txt",
+    "static/media/Luna.f478a158.png": "/static/media/Luna.f478a158.png",
+    "static/media/Nervath.e784b289.png": "/static/media/Nervath.e784b289.png",
+    "static/media/Svend.8f9b96e5.png": "/static/media/Svend.8f9b96e5.png",
+    "static/media/Swift.e1cda475.png": "/static/media/Swift.e1cda475.png",
+    "static/media/Zukaca.a3b92010.png": "/static/media/Zukaca.a3b92010.png",
+    "static/media/love.e4ffc781.png": "/static/media/love.e4ffc781.png",
+    "static/media/raise-hand.aa69c9e3.png": "/static/media/raise-hand.aa69c9e3.png",
+    "static/media/shield.b6f53af1.png": "/static/media/shield.b6f53af1.png",
+    "static/media/sword.7fa4d6e5.png": "/static/media/sword.7fa4d6e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f434aaf.js",
+    "static/js/2.06d429b0.chunk.js",
+    "static/css/main.adb6a47e.chunk.css",
+    "static/js/main.57c00912.chunk.js"
+  ]
+}
