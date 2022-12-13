@@ -18,7 +18,7 @@ const A2 = ({
     health,
     setHealth
 }) => {
-    const hasEvent = roomConfiguration === 1 || 2;
+    const hasEvent = roomConfiguration === 1 || roomConfiguration === 2;
     const shouldFight = false
 
     const roomTitle = 'Rice cooker storage';

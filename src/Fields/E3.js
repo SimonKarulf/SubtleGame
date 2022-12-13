@@ -18,7 +18,7 @@ const E3 = ({
     health,
     setHealth
 }) => {
-    const hasEvent = roomConfiguration === 4 || 3;
+    const hasEvent = roomConfiguration === 4 || roomConfiguration === 3;
     const shouldFight = hasEvent && !killedRoom && name !== 'zukaca';
 
     const roomTitle = 'Drug den';
@@ -55,7 +55,7 @@ const E3 = ({
                 <div className="movement-buttons">
                     <PrimaryButton width="50px" color="black" className="movement-button"
                                    onClick={moveLeft}
-                                   disabled={true}>
+                                   disabled={false}>
                         <img src={LeftArrow} alt="left" width="20px"/>
                     </PrimaryButton>
                     <PrimaryButton width="50px" color="black" className="movement-button"
@@ -70,7 +70,7 @@ const E3 = ({
                     </PrimaryButton>
                     <PrimaryButton width="50px" color="black" className="movement-button"
                                    onClick={moveRight}
-                                   disabled={true}>
+                                   disabled={false}>
                     <img src={RightArrow} alt="right" width="20px"/>
                     </PrimaryButton>
                 </div>

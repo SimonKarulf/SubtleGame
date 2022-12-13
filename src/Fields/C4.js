@@ -18,7 +18,7 @@ const C4 = ({
     health,
     setHealth
 }) => {
-    const hasEvent = roomConfiguration === 4 || 5;
+    const hasEvent = roomConfiguration === 4 || roomConfiguration === 5;
     const shouldFight = false;
 
     const roomTitle = 'Meeting room';

@@ -18,7 +18,7 @@ const B3 = ({
     health,
     setHealth
 }) => {
-    const hasEvent = roomConfiguration === 1 || 3;
+    const hasEvent = roomConfiguration === 1 || roomConfiguration === 3;
     const shouldFight = hasEvent && !killedRoom && name !== 'nervath';
 
     const roomTitle = 'Outlaw camp';

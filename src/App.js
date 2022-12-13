@@ -114,7 +114,7 @@ function App() {
     }
 
     const onSubmitClick = () => {
-        if (name === 'zukaca' || name === 'svend' || name === 'luna' || name === 'nervath' || name === 'swift') {
+        if (name === 'zukaca' || name === 'svend' || name === 'luna' || name === 'nervath' || name === 'swift' || name === 'cupcake') {
             setIsEnteringName(false);
             setCurrentRoom(CENTER_ROOM);
         } else {

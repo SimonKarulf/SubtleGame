@@ -18,7 +18,7 @@ const D1 = ({
     health,
     setHealth
 }) => {
-    const hasEvent = roomConfiguration === 1 || 4;
+    const hasEvent = roomConfiguration === 1 || roomConfiguration === 4;
     const shouldFight = hasEvent && !killedRoom && name !== 'luna';
 
     const roomTitle = 'Pink Room';
