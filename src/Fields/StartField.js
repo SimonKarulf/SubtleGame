@@ -24,7 +24,8 @@ const StartField = ({
     const FirstText = 'The center room of this horrid dungeon. The stench is horrible, it is filled with rotten christmas sweets and destroyed presents. This must be where Simon lost his final braincell!';
     let SecondText = 'Seems there is an altar in the middle of this disgusting sight, surrounded by 5 unlit candles.';
     
-    const matchedStrings = checkArray([CODE1, CODE2, CODE3, CODE4, CODE5], enteredCodes, 5);
+    const possibleCodes = [CODE1, CODE2, CODE3, CODE4, CODE5]
+    const matchedStrings = checkArray(possibleCodes, enteredCodes, 5);
     const shouldFight = matchedStrings === 5;
 
     if (matchedStrings === 1) {
@@ -49,7 +50,7 @@ const StartField = ({
         <div className="generic-room">
             {!shouldFight ? (
             <div>
-                <h1 className="generic-room-title" id='title'>Coffin room</h1>
+                <h1 className="generic-room-title" id='title'>Grinches lair</h1>
                 <h2 className="generic-room-text" id='first-text'/>
                 <h2 className="generic-room-text" id='second-text'/>
                 <div className="movement-buttons">

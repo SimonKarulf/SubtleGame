@@ -76,8 +76,6 @@ function App() {
         setKilledRoom(false);
     }
 
-    console.log(enteredCodes);
-
     function findCurrentConfiguration(num) {
         // Divide the number by 5 and round down to get the quotient
         const quotient = Math.floor(num / 5);
@@ -482,6 +480,7 @@ function App() {
                                 defense={defense}
                                 ability={ability}
                                 setEnteredCodes={setEnteredCodes}
+                                enteredCodes={enteredCodes}
                             />}
                         </>
                     )}

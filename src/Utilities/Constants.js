@@ -22,6 +22,6 @@ export const CENTER_ROOM = 'center-room'; //done
 
 export const CODE1 = 'ry3uhc'; //swift - altar 1
 export const CODE2 = 'er8em5'; //Luna - altar 2
-export const CODE3 = '4r7zwa'; // nervath - altar 3
+export const CODE3 = '4r7zwa'; //nervath - altar 3
 export const CODE4 = 'r8crib';
-export const CODE5 = '43qp6w'; // zuk - altar 1
+export const CODE5 = '43qp6w'; //zuk - altar 1

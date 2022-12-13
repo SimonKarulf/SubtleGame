@@ -12,7 +12,8 @@ const CharacterStats = ({
     strength,
     defense,
     ability,
-    setEnteredCodes
+    setEnteredCodes,
+    enteredCodes
 }) => {
     const [isEnteringCode, setIsEnteringCode] = useState(false);
     const [currentCode, setCurrentCode] = useState('');
@@ -21,10 +22,13 @@ const CharacterStats = ({
        setIsEnteringCode(true)
     }
 
+    console.log(enteredCodes);
+
     const onChange = (_, value) => setCurrentCode(value);
 
     const onSubmitClick = () => {
-        setEnteredCodes(currentCode);
+        const newCodes = enteredCodes.concat(currentCode);
+        setEnteredCodes(newCodes);
         setCurrentCode('');
         setIsEnteringCode(false);
     }

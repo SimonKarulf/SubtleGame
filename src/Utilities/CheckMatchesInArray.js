@@ -1,9 +1,15 @@
-export function checkArray(arr, strings, maxMatches) {
+export function checkArray(possibleCodes, enteredCodes, maxMatches) {
   let matches = 0;
-  for (let i = 0; i < arr.length; i++) {
-    if (strings.includes(arr[i]) && matches < maxMatches) {
+
+  enteredCodes.forEach(enteredCode => {
+    if (possibleCodes.includes(enteredCode)) {
       matches++;
     }
+  });
+
+  if (matches > 5) {
+    matches = 5;
   }
+
   return matches;
 }
