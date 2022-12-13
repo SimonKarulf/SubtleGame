@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SubtleGame/static/css/main.adb6a47e.chunk.css",
-    "main.js": "/SubtleGame/static/js/main.57c00912.chunk.js",
-    "main.js.map": "/SubtleGame/static/js/main.57c00912.chunk.js.map",
+    "main.js": "/SubtleGame/static/js/main.6402ed21.chunk.js",
+    "main.js.map": "/SubtleGame/static/js/main.6402ed21.chunk.js.map",
     "runtime-main.js": "/SubtleGame/static/js/runtime-main.577b2be0.js",
     "runtime-main.js.map": "/SubtleGame/static/js/runtime-main.577b2be0.js.map",
     "static/js/2.06d429b0.chunk.js": "/SubtleGame/static/js/2.06d429b0.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.577b2be0.js",
     "static/js/2.06d429b0.chunk.js",
     "static/css/main.adb6a47e.chunk.css",
-    "static/js/main.57c00912.chunk.js"
+    "static/js/main.6402ed21.chunk.js"
   ]
 }
