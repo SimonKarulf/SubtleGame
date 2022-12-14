@@ -26,7 +26,7 @@ const StartField = ({
     
     const possibleCodes = [CODE1, CODE2, CODE3, CODE4, CODE5]
     const matchedStrings = checkArray(possibleCodes, enteredCodes, 5);
-    const shouldFight = matchedStrings === 5;
+    const shouldFight = matchedStrings === 5 && !killedRoom;
 
     if (matchedStrings === 1) {
         SecondText = 'Seems there is an altar in the middle of this disgusting sight, surrounded by 4 unlit candles and one lit candle.'
