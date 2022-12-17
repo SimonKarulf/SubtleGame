@@ -112,7 +112,7 @@ function App() {
     }
 
     const onSubmitClick = () => {
-        if (name === 'zukaca' || name === 'svend' || name === 'luna' || name === 'nervath' || name === 'swift' || name === 'cupcake') {
+        if (name === 'zukaca' || name === 'svend' || name === 'luna' || name === 'nervath' || name === 'swift' || name === 'canada') {
             setIsEnteringName(false);
             setCurrentRoom(CENTER_ROOM);
         } else {

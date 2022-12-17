@@ -4,6 +4,7 @@ import Nervath from '../Images/Nervath.png';
 import Luna from '../Images/Luna.png';
 import Swift from '../Images/Swift.png';
 import Svend from '../Images/Svend.png';
+import Canada from '../Images/Canada.png';
 
 const Character = ({
     name
@@ -20,6 +21,8 @@ const Character = ({
         image = Swift
     } else if (name === 'svend') {
         image = Svend   
+    } else if (name ==='canada') {
+        image = Canada
     }
 
     return (
